@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40578208-a8e8-41ec-8f34-3ecb5550382d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/BookStorePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/BookStorePage2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/DemoQAHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/QuranRecitionByMMenk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/YoutubeHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/DriverUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BookStore/AddBook" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BookStore/Fromjahi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BookStore/NegativeTestLogIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ClickMeAssignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DemoQA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DemoQAtest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Google101.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Way2Automation/JavaAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Way2Automation/RegistrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Way2Automation/StudentRegistrationForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Youtube/YoutubeVideo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IsdBo3hcUKBczBKFCJrKAoUFUh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Naser Ahmed/IdeaProjects/Gitbasic&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RunManager" selected="TestNG.Fromjahi">
+    <configuration name="Fromjahi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BookStore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BookStore" />
+      <option name="MAIN_CLASS_NAME" value="BookStore.Fromjahi" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BookStore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BookStore" />
+      <option name="MAIN_CLASS_NAME" value="BookStore.LogIn" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogIn.BookCollection" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BookStore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BookStore" />
+      <option name="MAIN_CLASS_NAME" value="BookStore.LogIn" />
+      <option name="METHOD_NAME" value="BookCollection" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegativeTestLogIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BookStore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BookStore" />
+      <option name="MAIN_CLASS_NAME" value="BookStore.NegativeTestLogIn" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YoutubeVideo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Youtube.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Youtube" />
+      <option name="MAIN_CLASS_NAME" value="Youtube.YoutubeVideo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Fromjahi" />
+        <item itemvalue="TestNG.YoutubeVideo" />
+        <item itemvalue="TestNG.LogIn" />
+        <item itemvalue="TestNG.NegativeTestLogIn" />
+        <item itemvalue="TestNG.LogIn.BookCollection" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40578208-a8e8-41ec-8f34-3ecb5550382d" name="Changes" comment="" />
+      <created>1670974098234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670974098234</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/DemoQAtest.java</url>
+          <line>41</line>
+          <properties class="DemoQAtest" method="testingForm">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

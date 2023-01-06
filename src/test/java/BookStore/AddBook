@@ -1,0 +1,59 @@
+package BookStore;
+
+import Pages.BookStorePage;
+import Pages.DemoQAHomePage;
+import Utils.DriverUtil;
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+public class demoQa {
+    WebDriver driver;
+    DemoQAHomePage homePage;
+    BookStorePage bookStorePage;
+
+    @BeforeClass
+    void setUp() {
+        driver = DriverUtil.getWebDriver();
+        homePage = new DemoQAHomePage();
+        bookStorePage = new BookStorePage();
+        driver.get(homePage.url);
+        driver.manage().window().maximize();
+//        JavascriptExecutor js = (JavascriptExecutor) driver;
+//        js.executeScript("window.scrollBy(0,250)", "");
+    }
+
+    @Test
+    void nevigateToLoginPage() throws InterruptedException {
+        DriverUtil.clickUsingJS(driver.findElement(homePage.bookStore));
+        Assert.assertEquals(driver.getCurrentUrl(), bookStorePage.bookStoreUrl);
+        Thread.sleep(2000);
+
+        driver.findElement(bookStorePage.loginSubmenuLocator).click();
+        Assert.assertEquals(driver.getCurrentUrl(), bookStorePage.loginUrl);
+        Thread.sleep(1000);
+
+        driver.findElement(bookStorePage.userNameLocator).sendKeys("authorwiese");
+        driver.findElement(bookStorePage.passwordLocator).sendKeys("Author@123");
+        driver.findElement(bookStorePage.loginButtonLocator).click();
+        Thread.sleep(2000);
+        String userNameFromPage = driver.findElement(bookStorePage.usernameLabelLocator).getText();
+        Assert.assertEquals(userNameFromPage, "authorwiese");
+        Thread.sleep(2000);
+
+        driver.findElement(bookStorePage.selectBook).click();
+        Thread.sleep(2000);
+//        driver.findElement(bookStorePage.addBook).click();
+        DriverUtil.clickUsingJS(bookStorePage.addBook);
+//        driver.findElement(bookStorePage.profile).click();
+        DriverUtil.clickUsingJS(bookStorePage.profile);
+//
+        String bookName = driver.findElement(bookStorePage.bookNameLocator).getText();
+        Assert.assertEquals(bookName.contains("Git Pocket Guide"));
+
+
+
+
+    }
+
