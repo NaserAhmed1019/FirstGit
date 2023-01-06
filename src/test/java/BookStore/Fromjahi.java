@@ -23,6 +23,7 @@ public class Fromjahi {
         }
         @Test
     void Practice() {
+            System.out.println("updated");
         }
 
 //        @Test (priority = 0)

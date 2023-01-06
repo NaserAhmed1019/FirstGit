@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40578208-a8e8-41ec-8f34-3ecb5550382d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/BookStorePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/BookStorePage2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/DemoQAHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/QuranRecitionByMMenk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/YoutubeHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/DriverUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BookStore/AddBook" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BookStore/Fromjahi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BookStore/NegativeTestLogIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClickMeAssignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DemoQA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DemoQAtest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Google101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Way2Automation/JavaAlert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Way2Automation/RegistrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Way2Automation/StudentRegistrationForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Youtube/YoutubeVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BookStore/Fromjahi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookStore/Fromjahi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
