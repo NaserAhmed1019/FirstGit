@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40578208-a8e8-41ec-8f34-3ecb5550382d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/html-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BookStore/Fromjahi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookStore/Fromjahi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +41,35 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Naser Ahmed/IdeaProjects/Gitbasic&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Naser Ahmed/IdeaProjects/Automation/src/test&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Fromjahi">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Naser Ahmed\IdeaProjects\Automation\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Naser Ahmed/IdeaProjects/Automation/testNG.xml">
+    <configuration name="DemoQA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DemoQA" />
+      <module name="Automation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Naser Ahmed/IdeaProjects/Automation/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Fromjahi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
@@ -61,16 +87,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogIn" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BookStore.*" />
+          <option name="PATTERN" value="Way2Automation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BookStore" />
-      <option name="MAIN_CLASS_NAME" value="BookStore.LogIn" />
+      <option name="PACKAGE_NAME" value="Way2Automation" />
+      <option name="MAIN_CLASS_NAME" value="Way2Automation.RegistrationTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -78,51 +104,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogIn.BookCollection" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentRegistrationForm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BookStore.*" />
+          <option name="PATTERN" value="Way2Automation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BookStore" />
-      <option name="MAIN_CLASS_NAME" value="BookStore.LogIn" />
-      <option name="METHOD_NAME" value="BookCollection" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NegativeTestLogIn" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BookStore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BookStore" />
-      <option name="MAIN_CLASS_NAME" value="BookStore.NegativeTestLogIn" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YoutubeVideo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Youtube.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Youtube" />
-      <option name="MAIN_CLASS_NAME" value="Youtube.YoutubeVideo" />
+      <option name="PACKAGE_NAME" value="Way2Automation" />
+      <option name="MAIN_CLASS_NAME" value="Way2Automation.StudentRegistrationForm" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -132,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Naser Ahmed/IdeaProjects/Automation/testNG.xml" />
+        <item itemvalue="TestNG.StudentRegistrationForm" />
+        <item itemvalue="TestNG.RegistrationTest" />
+        <item itemvalue="Application.DemoQA" />
         <item itemvalue="TestNG.Fromjahi" />
-        <item itemvalue="TestNG.YoutubeVideo" />
-        <item itemvalue="TestNG.LogIn" />
-        <item itemvalue="TestNG.NegativeTestLogIn" />
-        <item itemvalue="TestNG.LogIn.BookCollection" />
       </list>
     </recent_temporary>
   </component>
