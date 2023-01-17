@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40578208-a8e8-41ec-8f34-3ecb5550382d" name="Changes" comment="Commit after changing selenium">
+    <list default="true" id="40578208-a8e8-41ec-8f34-3ecb5550382d" name="Changes" comment="Commit after changing Utils page">
+      <change afterPath="$PROJECT_DIR$/Project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/SelectMenuePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelectM_Assignment/SelectMenue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/DriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/DriverUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,7 @@
       <recent name="C:\Users\Naser Ahmed\IdeaProjects\Automation\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Naser Ahmed/IdeaProjects/Automation/testNG.xml">
+  <component name="RunManager" selected="TestNG.SelectMenue">
     <configuration name="DemoQA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DemoQA" />
       <module name="Automation" />
@@ -66,23 +68,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fromjahi" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BookStore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BookStore" />
-      <option name="MAIN_CLASS_NAME" value="BookStore.Fromjahi" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RegistrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
@@ -93,6 +78,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="Way2Automation" />
       <option name="MAIN_CLASS_NAME" value="Way2Automation.RegistrationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectMenue" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelectM_Assignment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SelectM_Assignment" />
+      <option name="MAIN_CLASS_NAME" value="SelectM_Assignment.SelectMenue" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -119,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SelectMenue" />
         <item itemvalue="TestNG.C:/Users/Naser Ahmed/IdeaProjects/Automation/testNG.xml" />
         <item itemvalue="TestNG.StudentRegistrationForm" />
         <item itemvalue="TestNG.RegistrationTest" />
         <item itemvalue="Application.DemoQA" />
-        <item itemvalue="TestNG.Fromjahi" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673479755796</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit after changing Utils page">
+      <created>1673667572757</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673667572757</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,7 +168,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit after changing selenium" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit after changing selenium" />
+    <MESSAGE value="Commit after changing Utils page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit after changing Utils page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -172,6 +182,26 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Utils/DriverUtil.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Utils/DriverUtil.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Utils/DriverUtil.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SelectM_Assignment/SelectMenue.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
