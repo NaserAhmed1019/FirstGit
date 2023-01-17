@@ -39,7 +39,25 @@ public class SelectMenue {
         Assert.assertEquals(selectValuetext, "Group 2, option 1");
 
 
+        driver.findElement(homePage.selectOneLocator).click();
+        driver.findElement(homePage.selectOneMs_Locator).click();
+        String selectOneText = driver.findElement(homePage.selectOneAssert).getText();
+        Assert.assertEquals(selectOneText, "Ms.");
 
 
+        driver.findElement(homePage.oldSelectMenuLocator).click();
+        driver.findElement(homePage.oldMenuBlueLocator).click();
+        driver.findElement(homePage.oldSelectMenuLocator).click();
+     //   String blue = driver.findElement(homePage.oldSelectMenuLocator).getText();
+     //   System.out.println(blue);
+
+        driver.findElement(homePage.multiSelectLocator).click();
+        driver.findElement(homePage.multiSelectBlackLocator).click();
+        String black= driver.findElement(homePage.multiselectAssert).getText();
+        Assert.assertEquals(black,"Black");
+        driver.findElement(homePage.multiSelectLocator).click();// needs some change
+
+        driver.findElement(homePage.standardMultiSelectLocator).click();
+        driver.findElement(homePage.standardMultiSelectSaab).click();
     }
 }
