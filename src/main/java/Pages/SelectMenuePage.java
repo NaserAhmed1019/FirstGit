@@ -27,12 +27,15 @@ public class SelectMenuePage {
     public By multiSelectLocator = new By.ByCssSelector("[style='opacity: 1; transition: opacity 260ms ease 0s;']");
     public By multiSelectBlackLocator = new By.ByCssSelector("#react-select-4-option-2");
     public By multiselectAssert = new By.ByCssSelector("[style='overflow: hidden; white-space: nowrap; width: 66.0625px;'] .css-12jo7m5");
-    public By multiSelectExitLo = new By.ByCssSelector("#selectMenuContainer div:nth-child(7) .css-1wy0on6 :nth-child(3)");
+
 
     // Standard Multi Select
     public By standardMultiSelectLocator = new By.ByCssSelector("cars");
 
     public By standardMultiSelectSaab = new By.ByCssSelector("[value='saab']");
+
+
+
 
 
 }
